@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/o989gooyezos/public_html/alikegames.com
+    - /bin/cp -R wp-content/themes/alikegames $DEPLOYPATH

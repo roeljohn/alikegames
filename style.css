@@ -1,0 +1,47 @@
+/*
+Theme Name: Alike Games
+Theme URI: #
+Author: Alike Games
+Author URI: #
+Description: This theme is created to re-use in your future project.
+Version: 1.0.0
+Text Domain: epithet
+*/
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Media queries for different devices */
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) {
+
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .align-medium{
+        justify-content: space-between !important;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+
+  }
+
+  
+  
+  
