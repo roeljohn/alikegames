@@ -11,7 +11,7 @@
     <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-baseline">
             <div class="col-md-6 d-flex align-items-center">
-            <span class="mb-3 mb-md-0 text-white">© 2023 Game Identities/span>
+            <span class="mb-3 mb-md-0 text-white">© 2023 Game Identities</span>
             </div>
             <?php get_template_part( 'template-parts/component/footer-right' ); ?>
         </footer>
