@@ -30,7 +30,7 @@
     <div class="container">
     <header class="d-flex flex-wrap justify-content-center py-2">
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-        <img width="150" height="auto" src="<?php echo home_url(); ?>/wp-content/uploads/2023/08/alikegameslogo.png" />
+        <img width="150" height="auto" src="<?php echo home_url(); ?>/wp-content/uploads/2023/08/gameidentitieslogo.png" />
       </a>
 
       <?php get_search_form(); ?>
