@@ -22,6 +22,9 @@ a {
       width: auto;
       margin: 0 auto;
     }
+    .search-form{
+      width: 100%;
+    }
 }
   
 /* Small devices (landscape phones, 576px and up) */
