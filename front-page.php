@@ -20,7 +20,7 @@ get_header(); ?>
     <div class="container">
         <header class="py-5 mb-4">
             <div class="text-white my-5">
-                <h1 class="fw-bolder">Welcome to Alike Games!</h1>
+                <h1 class="fw-bolder">Welcome to Game Identities!</h1>
                 <p class="lead mb-0">Unlock Boundless Adventures: Navigate Similar Games with Our Tags</p>
             </div>
             <?php get_search_form(); ?>
