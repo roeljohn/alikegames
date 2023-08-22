@@ -19,7 +19,7 @@ while ( have_posts() ) :
         <h1 class="page-title text-white mb-4 fw-bolder"><?php the_title(); ?></h1>
 		<div class="row mb-3">
 			<div class="col-md-2">
-				<img width="100%" height="auto" src="<?php if (get_the_post_thumbnail_url()) { echo get_the_post_thumbnail_url(); } ?>" alt=""/>
+				<img width="100%" height="auto" class="card-responsive" src="<?php if (get_the_post_thumbnail_url()) { echo get_the_post_thumbnail_url(); } ?>" alt=""/>
 			</div>
 			<div class="col-md-10">
 				<div class="text-white"><?php the_content(); ?></div>
