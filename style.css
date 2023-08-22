@@ -21,6 +21,7 @@ a {
       height: auto !important;
       width: auto;
       margin: 0 auto;
+      display: block;
     }
     .search-form{
       width: 100%;
@@ -38,6 +39,7 @@ a {
     }
     .card-responsive{
       height: auto !important;
+      display: block;
     }
 }
   
