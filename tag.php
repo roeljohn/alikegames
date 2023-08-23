@@ -31,13 +31,24 @@ $query = new WP_Query($query_args);
 
 if ( $query->have_posts() ) { ?>
 <div class="bg-body-tertiary">
-	<div class="container py-5 mb-4">
+	<div class="container py-5 mb-0">
 		<?php
 			the_archive_title( '<h1 class="page-title text-white mb-4 fw-bolder">', '</h1>' );
 			the_archive_description( '<p class="text-white">', '</p>' );
 		?>
 	</div>
 </div>
+<div class="bg-warning mb-4">
+	<div class="container d-flex flex-wrap justify-content-center align-items-center align-medium">
+		<span class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none text-white fw-bolder">Get Gaming News Direct: Subscribe Now!</span>
+		<div class="align-middle text-white">
+				<?php
+					get_template_part( 'template-parts/component/zoho-form');
+				?>
+		</div>
+	</div>
+</div>
+
 <div class="container">
 	<div class="row row-cols-1 row-cols-md-5 g-4">
 		<?php
