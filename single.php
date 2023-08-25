@@ -15,7 +15,7 @@ while ( have_posts() ) :
 	the_post();
 ?>
 <div class="bg-body-tertiary">
-	<div class="container py-5 mb-4">
+	<div class="container py-5">
         <h1 class="page-title text-white mb-4 fw-bolder"><?php the_title(); ?></h1>
 		<div class="row mb-3">
 			<div class="col-md-2">
@@ -29,6 +29,16 @@ while ( have_posts() ) :
 		<?php get_template_part( 'template-parts/component/tags' ); ?>
 	</div>
 </div>
+<div class="bg-warning mb-4">
+	<div class="container d-flex flex-wrap justify-content-center align-items-center py-1">
+		<span class="d-flex align-items-center mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none fw-bolder text-dark">Get Gaming News Direct: Subscribe Now!</span>
+		<div class="align-middle text-white">
+				<?php
+					get_template_part( 'template-parts/component/zoho-form');
+				?>
+		</div>
+	</div>
+</div>
 <div class="container text-white">
   <div class="row">
 	<div class="col-md-12">
@@ -36,6 +46,7 @@ while ( have_posts() ) :
 	</div>
   </div>
 </div>
+
 
 	<?php 
 

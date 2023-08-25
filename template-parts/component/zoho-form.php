@@ -42,13 +42,13 @@
 				<form method="POST" id="zcampaignOptinForm" style="margin: 0px; width: 100%" action="https://zcsub-cmpzourl.maillist-manage.com/weboptin.zc" target="_zcSignup">
 					<div style="background-color: rgb(255, 235, 232); padding: 10px; color: rgb(210, 0, 0); font-size: 11px; margin: 20px 10px 0px; border: 1px solid rgb(255, 217, 211); opacity: 1; display: none" id="errorMsgDiv">Please correct the marked field(s) below.</div>
 					<div style="position: relative; margin: 25px 0 15px 0px; width: 150px; height: 28px; display: inline-block" class="SIGNUP_FLD">
-						<input type="text" style="font-size: 12px; border-width: 0 0 1px; border-color: rgb(132, 156, 179); border-style: solid; width: 100%; height: 100%; z-index: 4; outline: none; padding: 5px 10px; color: rgb(255, 255, 255); text-align: left; font-family: &quot;Arial&quot;; border-radius: 0px; background-color: transparent" placeholder="Email" changeitem="SIGNUP_FORM_FIELD" name="CONTACT_EMAIL" id="EMBED_FORM_EMAIL_LABEL">
+						<input type="text" style="font-size: 12px; border-width: 0 0 1px; border-color: #fff; border-style: solid; width: 100%; height: 100%; z-index: 4; outline: none; padding: 5px 10px; color: rgb(255, 255, 255); text-align: left; font-family: &quot;Arial&quot;; border-radius: 0px; background-color: transparent" placeholder="Email" changeitem="SIGNUP_FORM_FIELD" name="CONTACT_EMAIL" id="EMBED_FORM_EMAIL_LABEL">
 					</div>
 					<div style="position: relative; margin: 15px 15px 15px 15px; width: 150px; height: 28px; display: inline-block" class="SIGNUP_FLD">
-						<input type="text" style="font-size: 12px; border-width: 0 0 1px; border-color: rgb(132, 156, 179); border-style: solid; width: 100%; height: 100%; z-index: 4; outline: none; padding: 5px 10px; color: rgb(255, 255, 255); text-align: left; font-family: &quot;Arial&quot;; border-radius: 0px; background-color: transparent" placeholder="Name" changeitem="SIGNUP_FORM_FIELD" name="LASTNAME" id="EMBED_FORM_NAME_LABEL">
+						<input type="text" style="font-size: 12px; border-width: 0 0 1px; border-color: #fff; border-style: solid; width: 100%; height: 100%; z-index: 4; outline: none; padding: 5px 10px; color: rgb(255, 255, 255); text-align: left; font-family: &quot;Arial&quot;; border-radius: 0px; background-color: transparent" placeholder="Name" changeitem="SIGNUP_FORM_FIELD" name="LASTNAME" id="EMBED_FORM_NAME_LABEL">
 					</div>
 					<div style="position: relative; width: 100px; height: 28px; margin: 0 0 15px 12px; display: inline-block" class="SIGNUP_FLD">
-						<input type="button" style="text-align: center; width: 100%; height: 100%; z-index: 5; border: 0px; color: rgb(255, 255, 255); cursor: pointer; outline: none; font-size: 14px; background-color: rgb(255, 225, 0); border-radius: 0px; font-family: Arial" name="SIGNUP_SUBMIT_BUTTON" id="zcWebOptin" value="Join Now">
+						<input class="bg-transparent" type="button" style="text-align: center; width: 100%; height: 100%; z-index: 5; border: 1px solid #fff; color: rgb(255, 255, 255); cursor: pointer; outline: none; font-size: 14px; background-color: none; border-radius: 0px; font-family: Arial" name="SIGNUP_SUBMIT_BUTTON" id="zcWebOptin" value="Join Now">
 					</div>
 					<input type="hidden" id="fieldBorder" value="">
 					<input type="hidden" id="submitType" name="submitType" value="optinCustomView">

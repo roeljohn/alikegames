@@ -39,8 +39,8 @@ if ( $query->have_posts() ) { ?>
 	</div>
 </div>
 <div class="bg-warning mb-4">
-	<div class="container d-flex flex-wrap justify-content-center align-items-center align-medium">
-		<span class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none text-white fw-bolder">Get Gaming News Direct: Subscribe Now!</span>
+	<div class="container d-flex flex-wrap justify-content-center align-items-center py-1">
+		<span class="d-flex align-items-center mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none fw-bolder text-dark">Get Gaming News Direct: Subscribe Now!</span>
 		<div class="align-middle text-white">
 				<?php
 					get_template_part( 'template-parts/component/zoho-form');
