@@ -18,7 +18,7 @@ get_header(); ?>
 
 <div class="bg-body-tertiary">
     <div class="container">
-        <header class="py-5 mb-4">
+        <header class="py-5">
             <div class="text-white my-5">
                 <h1 class="fw-bolder">Welcome to Game Identities!</h1>
                 <p class="lead mb-0">Unlock Boundless Adventures: Navigate Similar Games with Our Tags</p>
@@ -26,6 +26,16 @@ get_header(); ?>
             <?php get_search_form(); ?>
         </header>
     </div>
+</div>
+<div class="bg-warning mb-4">
+	<div class="container d-flex flex-wrap justify-content-center align-items-center py-1">
+		<span class="d-flex align-items-center mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none fw-bolder text-dark">Get Gaming News Direct: Subscribe Now!</span>
+		<div class="align-middle text-white">
+				<?php
+					get_template_part( 'template-parts/component/zoho-form');
+				?>
+		</div>
+	</div>
 </div>
 <div class="container">
     <div class="row text-white ">
